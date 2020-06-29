@@ -5,13 +5,13 @@ import SignIn from './pages/SignIn';
  */
 import GlobalStyle from './styles/global';
 
-import AuthContext from './contexts/AuthContext';
+import { AuthProvider } from './contexts/AuthContext';
 
 const App: React.FunctionComponent = () => (
   <>
-    <AuthContext.Provider value={{ name: 'Rafa' }}>
+    <AuthProvider>
       <SignIn />
-    </AuthContext.Provider>
+    </AuthProvider>
     <GlobalStyle />
   </>
 );
