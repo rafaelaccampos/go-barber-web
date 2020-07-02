@@ -5,7 +5,7 @@ import SignIn from './pages/SignIn';
  */
 import GlobalStyle from './styles/global';
 
-import { AuthProvider } from './contexts/AuthContext';
+import { AuthProvider } from './hooks/AuthContext';
 
 const App: React.FunctionComponent = () => (
   <>
