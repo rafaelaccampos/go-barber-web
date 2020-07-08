@@ -1,4 +1,4 @@
-import React, { useEffect, Props } from 'react';
+import React, { useEffect } from 'react';
 import {
   FiAlertCircle,
   FiCheckCircle,
